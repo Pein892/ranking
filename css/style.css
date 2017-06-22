@@ -82,6 +82,10 @@ button span{
     line-height: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .title-en{
     font-size: 16px;
     color: #000000;
@@ -423,4 +427,71 @@ footer img {
     letter-spacing: 0;
     line-height: 18px;
     max-width: 1140px;
+}
+
+.drop-list {
+    width: 1160px;
+    height: 550px;
+    position: absolute;
+    top: -1px;
+    background-color: #FFFFFF;
+    border: 1px solid #7A778A;
+    display: none;
+}
+
+.drop-list-back {
+    margin-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.drop-list-back img {
+    width: 32px;
+    vertical-align: middle;
+}
+
+.drop-list-back span {
+    vertical-align: middle;
+    margin-left: 18px;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.drop-list-item {
+    height: 70px;
+    padding-left: 80px;
+}
+
+.drop-list-item-current {
+    padding-left: 70px;
+    border-left-width: 10px;
+    border-left-color: #15A0FF;
+    border-left-style: solid;
+}
+
+.drop-list-item span {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 70px;
+}
+
+.drop-list-item span:hover {
+    font-weight: bold;
+    color: #15A0FF;
+}
+
+.drop-list-close {
+    width: 70px;
+    height: 70px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.drop-list-close img {
+    width: 50px;
+    height: 50px;
 }

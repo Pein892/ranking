@@ -11,7 +11,9 @@
         <div class="header-title-container">
             <div>
                 <span class="header-title">QS世界大学排名分析及排名提升方案</span>
-                <img class="service-title-drop" src="images/service_title_drop.png" alt="" srcset="images/service_title_drop@2x.png">
+                <a href="javascript: showDropList()">
+                    <img class="service-title-drop" src="images/service_title_drop.png" alt="" srcset="images/service_title_drop@2x.png">
+                </a>
             </div>
             <div class="learn-title">
                 <span>了解QS: </span>
@@ -26,6 +28,50 @@
                     <span>立即咨询</span>
                 </button>
             </a>
+        </div>
+
+        <div class="drop-list" id="drop-list">
+            <div class="drop-list-close">
+                <a href="javascript: closeDropList()">
+                    <img src="images/btn_droplist_close.png" alt="" srcset="images/btn_droplist_close@2x.png">
+                </a>
+            </div>
+            <div class="drop-list-back">
+                <a href="index.html">
+                    <img src="images/btn_back.png" alt="" srcset="images/btn_back@2x.png">
+                    <span>返回首页</span>
+                </a>
+            </div>
+            <div class="drop-list-item">
+                <a href="esi.html">
+                    <span>ESI高被引潜力分析及排名提升方案</span>
+                </a>
+            </div>
+            <div class="drop-list-item">
+                <a href="arwu.html">
+                    <span>ARWU上海交大世界大学学术排名分析及排名提升方案</span>
+                </a>
+            </div>
+            <div class="drop-list-item drop-list-item-current">
+                <a href="qs.html">
+                    <span>QS世界大学排名分析及排名提升方案</span>
+                </a>
+            </div>
+            <div class="drop-list-item">
+                <a href="the.html">
+                    <span>THE泰晤士高等教育世界大学排名分析及排名提升方案</span>
+                </a>
+            </div>
+            <div class="drop-list-item">
+                <a href="usnew.html">
+                    <span>USNews美国大学综合排名分析及排名提升方案</span>
+                </a>
+            </div>
+            <div class="drop-list-item">
+                <a href="more.html">
+                    <span>更多高校研究能力分析服务</span>
+                </a>
+            </div>
         </div>
     </div>
 </header>
@@ -73,5 +119,14 @@
         </div>
     </div>
 </footer>
+<script>
+    function closeDropList() {
+        document.getElementById('drop-list').style.display = 'none';
+    }
+
+    function showDropList() {
+        document.getElementById('drop-list').style.display = 'block';
+    }
+</script>
 </body>
 </html>
