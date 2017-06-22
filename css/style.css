@@ -495,3 +495,67 @@ footer img {
     width: 50px;
     height: 50px;
 }
+
+#contactBox {
+    width: 600px;
+    height: 440px;
+    background-color: #FFFFFF;
+    border: 1px solid #7A778A;
+    box-shadow: 0 30px 100px 0 rgba(0,0,0,0.50);
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 200px;
+    display: none;
+    z-index: 100;
+}
+
+.contactBoxClose {
+    text-align: right;
+    padding: 20px;
+}
+
+.contactBoxClose img {
+    width: 50px;
+    height: 50px;
+}
+
+.contactBoxContent {
+    margin-top: 10px;
+    padding-left: 60px;
+}
+.contactBoxTitle {
+    padding-bottom: 30px;
+}
+
+.contactBoxTitle span{
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.contactBoxItem {
+    height: 60px;
+    margin-top: 30px;
+}
+
+.contactBoxItem img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.contactBoxItem span {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.contactBoxItem span:hover {
+    color: #15A0FF;
+}

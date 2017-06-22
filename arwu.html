@@ -6,6 +6,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="contactBox">
+    <div class="contactBoxClose">
+        <a href="javascript: closeContact()">
+            <img src="images/btn_droplist_close.png" alt="" srcset="images/btn_droplist_close@2x.png">
+        </a>
+    </div>
+    <div class="contactBoxContent">
+        <div class="contactBoxTitle">
+            <span>了解具体服务，请咨询：</span>
+        </div>
+        <div class="contactBoxItem">
+            <img src="images/icon_mail.png" alt="" srcset="images/icon_mail@2x.png">
+            <a href="mailto:blackmoonmoon.emily@gmail.com">
+                <span>blackmoonmoon.emily@gmail.com</span>
+            </a>
+        </div>
+        <div class="contactBoxItem">
+            <img src="images/icon_call.png" alt="" srcset="images/icon_call@2x.png">
+            <a href="tel:+86 186 1142 5100">
+                <span>+86 186 1142 5100</span>
+            </a>
+        </div>
+    </div>
+</div>
 <header>
     <div style="margin-top: 44px; margin-bottom: 30px; position: relative">
         <div class="header-title-container">
@@ -23,7 +47,7 @@
             </div>
         </div>
         <div style="float: right">
-            <a href="mailto:blackmoonmoon.emily@gmail.com?subject=XHey全球高校研究能力服务咨询">
+            <a href="javascript: showContact()">
                 <button>
                     <span>立即咨询</span>
                 </button>
@@ -189,6 +213,13 @@
 
     function showDropList() {
         document.getElementById('drop-list').style.display = 'block';
+    }
+    function showContact() {
+        document.getElementById('contactBox').style.display = 'block';
+    }
+
+    function closeContact() {
+        document.getElementById('contactBox').style.display = 'none';
     }
 </script>
 </body>
